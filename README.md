@@ -1,6 +1,7 @@
 # search3
 
-my third attempt at making a dumb stupid search thing for windows
+my third attempt at making a dumb stupid search thing for windows.
+this thing is barely tested for any edge cases, but if you use it AS INTENDED then it should be fine.
 
 
 # Design
