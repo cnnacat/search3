@@ -177,7 +177,7 @@ void search(
         return;
     }
 
-    // I do not care. Just skip.
+    // I do not care (yet). Just skip.
     file_handle = FindFirstFileW(search_path, &file_data);
     if (file_handle == INVALID_HANDLE_VALUE)
     {
