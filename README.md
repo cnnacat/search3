@@ -66,3 +66,6 @@ Thanks to MonochromeMenace for making such an addicting song to listen to.
 <https://open.spotify.com/track/5WIHM3sAiArCXH3xZ3eym2?si=f5a4ea909b4e493f>
 
 Thanks mom and dad. :D
+
+teto pear  
+![:3](https://media.tenor.com/z34n-jFebKIAAAAM/teto-kasane.gif)
