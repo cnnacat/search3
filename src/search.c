@@ -3,13 +3,7 @@
 #include "../getopt/getopt.h"
 #include "../error/error.h"
 #include "../linked_list/output.h"
-#include <fileapi.h>
-#include <minwindef.h>
-#include <stdlib.h>
-#include <strsafe.h>
-#include <wchar.h>
-#include <wingdi.h>
-#include <winnt.h>
+
 
 enum
 {
