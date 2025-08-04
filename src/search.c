@@ -114,7 +114,7 @@ size_t matching(wchar_t* string_1, wchar_t* string_2)
 
     while (*string_1 && *string_2)
     {
-        if (*string_1 == *string_2)
+        if (tolower(*string_1) == tolower(*string_2))
             count++;
 
         string_1++;
@@ -150,7 +150,7 @@ int calculate_relevant_matches(wchar_t* file_name)
     // but im not good enough to figure out a workaround. maybe eventually ill be good
     // enough. nah its not a maybe, im locked in.
     float do_math = (float)length / 2;
-    result_2 = (int)(ceil(do_math));
+    result_2      = (int)(ceil(do_math));
 
     return result_2;
 }
@@ -235,7 +235,8 @@ void search(
                 continue; // Implement logging later
             }
 
-            search(next_directory_path,
+            search(
+                next_directory_path,
                 target,
                 head_output_node,
                 perfect_match_head_output_node);
@@ -350,7 +351,7 @@ int wmain(int argc, wchar_t* argv[])
     // perfect matches. yeah im doing this because i dont want to sort something.
     // because i shouldnt have to. just separate the data.
 
-    // actually i might want to alphabeitize (beitize(alphabizate)) output. 
+    // actually i might want to alphabeitize (beitize(alphabizate)) output. later
 
     get_cli_args(
         argc,
@@ -376,6 +377,7 @@ int wmain(int argc, wchar_t* argv[])
         target,
         &head_output_node,
         &perfect_match_head_output_node);  
+
 
     free(directory_path);
     free(target);

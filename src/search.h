@@ -9,3 +9,4 @@
 #include <strsafe.h>
 #include <stdbool.h>
 #include <math.h>
+#include <ctype.h>
