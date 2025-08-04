@@ -23,8 +23,9 @@ Compile with cmake or download the ZIP/Rar file.
 Run in Windows CMD, cd'd into the executable's parent directory.
 
 Example usage:
+```bash
 search3 --target=file_name --directory=directory_path
-
+```
 --target is a required argument.
 --directory is an optional argument.
 
