@@ -23,6 +23,10 @@ Spits out any PERFECT matches and any SIMILAR matches, along with the directory 
 
 Compile with cmake or download the ZIP/Rar file. 
 
+NOTE!!: If you wish to compile natively, you must use a toolchain that is compatible with POSIX stuff, because it uses POSIX standard stuff. Also it should be obvious that this can't be compiled on a non-Windows OS because it uses the Windows API. This script was developed with the UCRT64 toolchain.  
+End users should just download it from the [releases page](https://github.com/cnnacat/search3/releases).
+
+
 Run in Windows CMD, cd'd into the executable's parent directory.
 
 Example usage:
